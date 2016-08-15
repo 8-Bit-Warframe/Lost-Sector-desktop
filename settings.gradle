@@ -1,0 +1,6 @@
+rootProject.name = 'Lost Sector'
+include 'app'
+include 'dethsquare'
+include 'dethsquare:core'
+include 'dethsquare:desktop'
+

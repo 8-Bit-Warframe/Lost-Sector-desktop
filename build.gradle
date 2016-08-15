@@ -1,0 +1,47 @@
+version '0.7'
+
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'edu.sc.seis.launch4j'
+
+launch4j {
+    mainClassName = 'Main'
+    icon = 'D:\\Downloads\\App_Icon.ico'
+    outputDir = 'D:\\Test\\'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+    dependencies {
+        classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:1.6.2'
+    }
+}
+
+dependencies {
+    compile project(':app')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+mainClassName = 'Main'
+
+distZip.destinationDir = new File('D:\\')

@@ -1,0 +1,5 @@
+base = 0 0 128 30
+energy = 0 62 4 2
+health = 32 34 6 4
+shield = 32 30 22 4
+gravestone = 0 30 32 32

@@ -1,0 +1,10 @@
+cube_shatter0 = 0 0 16 16
+cube_shatter1 = 16 0 16 16
+cube_shatter2 = 0 16 16 16
+cube_shatter3 = 16 16 16 16
+cube0 = 32 0 16 16
+cube1 = 32 16 16 16
+cube2 = 48 0 16 16
+cube3 = 48 16 16 16
+cube4 = 0 32 16 16
+cube5 = 0 48 16 16
