@@ -1,9 +1,0 @@
-destroy0 = 0 0 32 32
-destroy1 = 32 0 32 32
-destroy2 = 0 32 32 32
-destroy3 = 32 32 32 32
-destroy4 = 64 0 32 32
-destroy5 = 64 32 32 32
-destroy6 = 96 0 32 32
-destroy7 = 96 32 32 32
-destroy8 = 0 64 32 32
