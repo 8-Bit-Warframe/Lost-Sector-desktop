@@ -3,10 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lost Sector.iml" filepath="$PROJECT_DIR$/.idea/modules/Lost Sector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lost_Sector_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lost_Sector_main.iml" group="Lost Sector" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lost_Sector_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lost_Sector_test.iml" group="Lost Sector" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" group="dethsquare/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core_main.iml" group="dethsquare/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core_test.iml" group="dethsquare/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" group="dethsquare/desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop_main.iml" group="dethsquare/desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop_test.iml" group="dethsquare/desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" group="dethsquare" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare_main.iml" group="dethsquare" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare_test.iml" group="dethsquare" />
     </modules>
   </component>
 </project>
