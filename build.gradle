@@ -14,13 +14,14 @@ apply plugin: 'edu.sc.seis.launch4j'
 shadowJar {
     baseName = 'LostSector'
     classifier = null
+    destinationDir = new File(buildDirectory)
 }
 
 launch4j {
     mainClassName = 'Main'
     icon = launch4j_icon
     outputDir = buildDirectory
-    jar = new File('').absoluteFile.toString() + '/build/libs/LostSector-' + project.version + '.jar'
+    jar = buildDirectory + 'LostSector-' + project.version + '.jar'
     outfile = 'LostSector-' + project.version + '.exe'
 }
 
