@@ -21,7 +21,7 @@ launch4j {
     mainClassName = 'Main'
     icon = launch4j_icon
     outputDir = buildDirectory
-    jar = new File('').absoluteFile.toString() + '\\build\\libs\\LostSector-' + build_version + '.jar'
+    jar = new File('').absoluteFile.toString() + '/build/libs/LostSector-' + build_version + '.jar'
 }
 
 sourceCompatibility = 1.8
