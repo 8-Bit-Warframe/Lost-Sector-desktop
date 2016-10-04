@@ -2,10 +2,9 @@
 A gradle.properties file is required with the following:
 buildDirectory=<directory (e.g. C:\\path\\to\\dir)>
 launch4j_icon=<directory e.g. C:\\path\\to\\icon.ico>
-build_version=<version number e.g. 1.2.3>
 */
 
-version build_version
+version 0.7
 
 apply plugin: 'application'
 apply plugin: 'java'
@@ -21,7 +20,7 @@ launch4j {
     mainClassName = 'Main'
     icon = launch4j_icon
     outputDir = buildDirectory
-    jar = new File('').absoluteFile.toString() + '/build/libs/LostSector-' + build_version + '.jar'
+    jar = new File('').absoluteFile.toString() + '/build/libs/LostSector-' + project.version + '.jar'
 }
 
 sourceCompatibility = 1.8
