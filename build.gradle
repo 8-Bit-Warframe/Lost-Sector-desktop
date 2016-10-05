@@ -11,8 +11,11 @@ apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
 
+def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
+
 shadowJar {
     baseName = 'LostSector'
+    version = versionText
     classifier = null
     destinationDir = new File(buildDirectory)
 }
@@ -21,8 +24,8 @@ launch4j {
     mainClassName = 'Main'
     icon = launch4j_icon
     outputDir = buildDirectory
-    jar = buildDirectory + 'LostSector-' + project.version + '.jar'
-    outfile = 'LostSector-' + project.version + '.exe'
+    jar = buildDirectory + 'LostSector-' + versionText + '.jar'
+    outfile = 'LostSector-' + versionText + '.exe'
 }
 
 sourceCompatibility = 1.8
