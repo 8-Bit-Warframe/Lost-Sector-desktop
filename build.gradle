@@ -1,13 +1,31 @@
-version '0.7'
+/*
+A gradle.properties file is required with the following:
+buildDirectory=<directory (e.g. C:\\path\\to\\dir)>
+launch4j_icon=<directory e.g. C:\\path\\to\\icon.ico>
+*/
+
+version 0.7
 
 apply plugin: 'application'
 apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
+
+def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
+
+shadowJar {
+    baseName = 'LostSector'
+    version = versionText
+    classifier = null
+    destinationDir = new File(buildDirectory)
+}
 
 launch4j {
     mainClassName = 'Main'
-    icon = 'D:\\Downloads\\App_Icon.ico'
-    outputDir = 'D:\\Test\\'
+    icon = launch4j_icon
+    outputDir = buildDirectory
+    jar = buildDirectory + 'LostSector-' + versionText + '.jar'
+    outfile = 'LostSector-' + versionText + '.exe'
 }
 
 sourceCompatibility = 1.8
@@ -21,8 +39,10 @@ buildscript {
         maven {
             url 'https://plugins.gradle.org/m2/'
         }
+        jcenter()
     }
     dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
         classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:1.6.2'
     }
 }
@@ -43,5 +63,3 @@ subprojects {
 }
 
 mainClassName = 'Main'
-
-distZip.destinationDir = new File('D:\\')
