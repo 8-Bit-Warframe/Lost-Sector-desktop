@@ -60,6 +60,10 @@ subprojects {
     repositories {
         mavenCentral()
     }
+
+    dependencies {
+        compile group: 'org.json', name: 'json', version: '20160810'
+    }
 }
 
 mainClassName = 'Main'
