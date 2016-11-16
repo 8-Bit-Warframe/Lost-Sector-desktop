@@ -17,14 +17,14 @@ shadowJar {
     baseName = 'LostSector'
     version = versionText
     classifier = null
-    destinationDir = new File(project.hasProperty('buildDirectory') ? buildDirectory : System.getEnv('TRAVIS_BUILD_DIR'))
+    destinationDir = new File(project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR'))
 }
 
 launch4j {
     mainClassName = 'Main'
-    icon = project.hasProperty('launch4j_icon') ? launch4j_icon : System.getEnv('launch4j_icon');
-    outputDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getEnv('TRAVIS_BUILD_DIR');
-    jar = (project.hasProperty('buildDirectory') ? buildDirectory : System.getEnv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'
+    icon = project.hasProperty('launch4j_icon') ? launch4j_icon : System.getenv('launch4j_icon');
+    outputDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv ('TRAVIS_BUILD_DIR');
+    jar = (project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'
     outfile = 'LostSector-' + versionText + '.exe'
 }
 
