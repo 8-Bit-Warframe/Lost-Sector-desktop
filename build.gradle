@@ -14,12 +14,13 @@ apply plugin: 'maven'
 group = "com.github.8-Bit-Warframe"
 
 def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
+def buildDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')
 
 shadowJar {
     baseName = 'LostSector'
     version = versionText
     classifier = null
-    destinationDir = new File(project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR'))
+    destinationDir = new File(buildDir.toString())
 }
 
 launch4j {
