@@ -6,7 +6,6 @@ launch4j_icon=<directory e.g. C:\\path\\to\\icon.ico>
 
 version 0.7
 
-apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
