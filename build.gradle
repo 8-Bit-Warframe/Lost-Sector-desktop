@@ -9,6 +9,7 @@ version 0.7
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
+apply plugin: 'maven'
 
 group = "com.github.8-Bit-Warframe"
 
@@ -54,12 +55,9 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
-allprojects {
-    apply plugin: 'maven'
-}
-
 subprojects {
     apply plugin: 'java'
+    apply plugin: 'maven'
 
     sourceCompatibility = 1.8
 
