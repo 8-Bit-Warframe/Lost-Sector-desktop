@@ -19,17 +19,5 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="app_main" target="1.8" />
-      <module name="app_test" target="1.8" />
-      <module name="core_main" target="1.8" />
-      <module name="core_test" target="1.8" />
-      <module name="desktop_main" target="1.8" />
-      <module name="desktop_test" target="1.8" />
-      <module name="dethsquare_main" target="1.8" />
-      <module name="dethsquare_test" target="1.8" />
-      <module name="Lost_Sector_main" target="1.8" />
-      <module name="Lost_Sector_test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
