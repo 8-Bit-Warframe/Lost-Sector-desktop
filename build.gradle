@@ -24,7 +24,7 @@ shadowJar {
 }
 
 launch4j {
-    mainClassName = 'Main'
+    mainClassName = 'com.ezardlabs.lostsector.Main'
     icon = project.hasProperty('launch4j_icon') ? launch4j_icon : System.getenv('launch4j_icon');
     outputDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv ('TRAVIS_BUILD_DIR');
     jar = (project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'

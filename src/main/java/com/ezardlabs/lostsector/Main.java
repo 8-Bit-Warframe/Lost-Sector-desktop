@@ -1,4 +1,4 @@
-import com.ezardlabs.lostsector.Game;
+package com.ezardlabs.lostsector;
 
 import java.io.BufferedReader;
 import java.io.IOException;
