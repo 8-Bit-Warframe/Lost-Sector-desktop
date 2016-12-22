@@ -1,3 +1,7 @@
+apply plugin: 'maven'
+
+group = "com.github.8-bit-warframe"
+
 dependencies {
     compile project(':dethsquare:core')
     testCompile group: 'junit', name: 'junit', version: '4.11'
