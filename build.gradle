@@ -9,9 +9,6 @@ version 0.7
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
-apply plugin: 'maven'
-
-group = "com.github.8-Bit-Warframe"
 
 def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
 def buildDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')
@@ -58,6 +55,8 @@ dependencies {
 subprojects {
     apply plugin: 'java'
     apply plugin: 'maven'
+
+    group = "com.github.8-Bit-Warframe"
 
     sourceCompatibility = 1.8
 
