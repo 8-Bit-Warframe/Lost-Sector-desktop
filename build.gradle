@@ -66,4 +66,8 @@ subprojects {
     }
 }
 
-mainClassName = 'Main'
+project(':dethsquare:core') {
+    dependencies {
+        compile project(':dethsquare:desktop')
+    }
+}
