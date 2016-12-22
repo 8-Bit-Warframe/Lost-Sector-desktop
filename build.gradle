@@ -10,6 +10,9 @@ apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
+apply plugin: 'maven'
+
+group = "com.github.8-Bit-Warframe"
 
 def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
 
