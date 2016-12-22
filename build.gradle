@@ -9,7 +9,6 @@ version 0.7
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
-apply plugin: 'maven'
 
 group = "com.github.8-Bit-Warframe"
 
@@ -53,6 +52,10 @@ buildscript {
 dependencies {
     compile project(':app')
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+allprojects {
+    apply plugin: 'maven'
 }
 
 subprojects {
