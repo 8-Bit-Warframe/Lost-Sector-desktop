@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":dethsquare:core" external.linked.project.path="$MODULE_DIR$/../../../../dethsquare/core" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Lost Sector.dethsquare" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":core" external.linked.project.path="$MODULE_DIR$/../../../../dethsquare/core" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="com.github.8-Bit-Warframe" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../../../dethsquare/core/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/../../../../dethsquare/core/build/classes/test" />
@@ -14,34 +14,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="desktop" />
     <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="module" module-name="base" />
+    <orderEntry type="module" module-name="desktop" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt-main:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all-main:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-android-aarch64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-android-armv6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-linux-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-linux-armv6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-linux-armv6hf" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-linux-i586" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-macosx-universal" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-solaris-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-solaris-i586" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-windows-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.gluegen:gluegen-rt:2.3.1:natives-windows-i586" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-android-aarch64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-android-armv6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-linux-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-linux-armv6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-linux-armv6hf" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-linux-i586" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-macosx-universal" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-solaris-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-solaris-i586" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-windows-amd64" level="project" />
-    <orderEntry type="library" name="Gradle: org.jogamp.jogl:jogl-all:2.3.1:natives-windows-i586" level="project" />
   </component>
 </module>
