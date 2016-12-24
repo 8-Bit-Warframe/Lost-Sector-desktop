@@ -1,3 +1,6 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/8-Bit-Warframe/Lost-Sector.git
+[submodule "dethsquare"]
+	path = dethsquare
+	url = https://github.com/8-Bit-Warframe/Dethsquare-Engine.git
