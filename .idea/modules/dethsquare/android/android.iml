@@ -15,5 +15,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="module" module-name="base" />
+    <orderEntry type="module-library">
+      <library name="Gradle: android-4.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../dethsquare/android/libs/android-4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
