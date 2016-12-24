@@ -1,5 +1,7 @@
 package com.ezardlabs.lostsector;
 
+import com.ezardlabs.dethsquare.util.DesktopLauncher;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -19,7 +21,7 @@ public class Main {
 				e.printStackTrace();
 			}
 		} else {
-			new Game();
+			new DesktopLauncher().launch(new Game());
 		}
 	}
 }
