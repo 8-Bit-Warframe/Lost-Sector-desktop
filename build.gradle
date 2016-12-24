@@ -70,10 +70,4 @@ subprojects {
     }
 }
 
-project(':dethsquare:core') {
-    dependencies {
-        compile project(':dethsquare:desktop')
-    }
-}
-
 mainClassName = 'com.ezardlabs.lostsector.Main'
