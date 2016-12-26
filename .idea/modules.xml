@@ -4,11 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lost Sector.iml" filepath="$PROJECT_DIR$/.idea/modules/Lost Sector.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/android/android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/base/base.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/desktop/desktop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/dethsquare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lost-sector/lost-sector.iml" filepath="$PROJECT_DIR$/.idea/modules/lost-sector/lost-sector.iml" />
     </modules>
   </component>
 </project>

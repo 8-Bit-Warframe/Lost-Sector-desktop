@@ -16,12 +16,18 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.0:natives-windows" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-windows" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-openal:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="module" module-name="base" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.0:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.0:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-macos" level="project" />
   </component>
 </module>
