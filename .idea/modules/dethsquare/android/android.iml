@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":android" external.linked.project.path="$MODULE_DIR$/../../../../dethsquare/android" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="com.github.8-Bit-Warframe" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+<module external.linked.project.id=":android" external.linked.project.path="$MODULE_DIR$/../../../../dethsquare/android" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Lost Sector" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../../../dethsquare/android/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/../../../../dethsquare/android/build/classes/test" />
     <exclude-output />
@@ -14,9 +14,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
     <orderEntry type="module" module-name="base" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="PROVIDED">
       <library name="Gradle: android-4.4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../dethsquare/android/libs/android-4.4.jar!/" />

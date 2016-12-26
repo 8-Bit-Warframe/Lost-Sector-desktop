@@ -25,7 +25,6 @@
     <orderEntry type="module" module-name="dethsquare" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
-    <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
     <orderEntry type="module" module-name="base" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0:natives-windows" level="project" />
@@ -35,5 +34,6 @@
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-stb:3.1.0:natives-macos" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-windows" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.1.0:natives-linux" level="project" />
+    <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
   </component>
 </module>
