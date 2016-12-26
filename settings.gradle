@@ -1,5 +1,5 @@
 apply from: 'dethsquare/settings-dethsquare.gradle'
 
 rootProject.name = 'Lost Sector'
-include 'app'
+include 'lost-sector'
 include 'dethsquare'
