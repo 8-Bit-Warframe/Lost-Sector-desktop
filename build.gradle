@@ -4,19 +4,16 @@ buildDirectory=<directory (e.g. C:\\path\\to\\dir)>
 launch4j_icon=<directory e.g. C:\\path\\to\\icon.ico>
 */
 
-version 0.7
-
 apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
 
-def versionText = project.hasProperty('versionText') ? project['versionText'] : project.version
 def buildDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')
 
 shadowJar {
     baseName = 'LostSector'
-    version = versionText
+    version = null
     classifier = null
     destinationDir = new File(buildDir.toString())
 }
@@ -25,8 +22,8 @@ launch4j {
     mainClassName = 'com.ezardlabs.lostsector.Main'
     icon = project.hasProperty('launch4j_icon') ? launch4j_icon : System.getenv('launch4j_icon');
     outputDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv ('TRAVIS_BUILD_DIR');
-    jar = (project.hasProperty('buildDirectory') ? (project.projectDir.toString() + buildDirectory) : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'
-    outfile = 'LostSector-' + versionText + '.exe'
+    jar = (project.hasProperty('buildDirectory') ? (project.projectDir.toString() + buildDirectory) : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector.jar'
+    outfile = 'LostSector.exe'
 }
 
 sourceCompatibility = 1.8
