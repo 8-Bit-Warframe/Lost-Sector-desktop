@@ -25,7 +25,7 @@ launch4j {
     mainClassName = 'com.ezardlabs.lostsector.Main'
     icon = project.hasProperty('launch4j_icon') ? launch4j_icon : System.getenv('launch4j_icon');
     outputDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv ('TRAVIS_BUILD_DIR');
-    jar = (project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'
+    jar = (project.hasProperty('buildDirectory') ? (project.projectDir.toString() + buildDirectory) : System.getenv('TRAVIS_BUILD_DIR')) + 'LostSector-' + versionText + '.jar'
     outfile = 'LostSector-' + versionText + '.exe'
 }
 
@@ -43,8 +43,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
-        classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:1.6.2'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.0'
+        classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:2.3.0'
     }
 }
 
