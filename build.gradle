@@ -8,12 +8,14 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
+apply plugin: 'org.mini2Dx.butler'
 
+def version = '0.1.0'
 def buildDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')
 
 shadowJar {
     baseName = 'LostSector'
-    version = null
+    this.version = null
     classifier = null
     destinationDir = new File(buildDir.toString())
 }
@@ -37,11 +39,14 @@ buildscript {
         maven {
             url 'https://plugins.gradle.org/m2/'
         }
+        mavenLocal()
+        mavenCentral()
         jcenter()
     }
     dependencies {
         classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.0'
         classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:2.3.0'
+        classpath group: 'org.mini2Dx', name: 'butler', version: '1.1.2'
     }
 }
 
@@ -66,5 +71,18 @@ project(':lost-sector') {
         compile project(':dethsquare')
     }
 }
+
+butler {
+    user = '8bitwarframe'
+    game = 'lost-sector'
+    println "Version: " + version
+    userVersion = version
+
+    anyOs {
+        binDirectory = file('build/install/Lost Sector').getAbsolutePath()
+        channel = 'win-osx-linux-alpha'
+    }
+}
+butlerPush.dependsOn installDist
 
 mainClassName = 'com.ezardlabs.lostsector.Main'
