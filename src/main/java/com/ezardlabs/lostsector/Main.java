@@ -22,6 +22,7 @@ public class Main {
 			}
 		} else {
 			new DesktopLauncher().launch(new Game());
+			System.exit(0);
 		}
 	}
 }
