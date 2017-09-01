@@ -83,6 +83,50 @@ butler {
         channel = 'win-osx-linux-alpha'
     }
 }
-butlerPush.dependsOn installDist
+
+task clearInstallDirectory {
+    doFirst {
+        file('build/install/Lost Sector').deleteDir()
+    }
+}
+
+task moveLaunchScripts {
+    doLast {
+        File windowsA = file('build/install/Lost Sector/bin/Lost Sector.bat')
+        File windowsB = file('build/install/Lost Sector/LostSector-Windows.bat')
+
+        File unixA = file('build/install/Lost Sector/bin/Lost Sector')
+        File unixB = file('build/install/Lost Sector/LostSector-OSX-Linux')
+
+        windowsB.createNewFile()
+        windowsB.withWriter { writer ->
+            windowsA.eachLine { line ->
+                if (line == 'set APP_HOME=%DIRNAME%..') {
+                    writer << 'set APP_HOME=%DIRNAME%'
+                } else {
+                    writer << line
+                }
+                writer << System.lineSeparator()
+            }
+        }
+
+        unixB.createNewFile()
+        unixB.withWriter { writer ->
+            unixA.eachLine { line ->
+                if (line == '"`dirname \\"$PRG\\"`/.." >/dev/null') {
+                    writer << '"`dirname \"$PRG\"`/" >/dev/null'
+                } else {
+                    writer << line
+                }
+                writer << System.lineSeparator()
+            }
+        }
+
+        file('build/install/Lost Sector/bin').deleteDir()
+    }
+}
+installDist.dependsOn clearInstallDirectory
+moveLaunchScripts.dependsOn installDist
+butlerPush.dependsOn moveLaunchScripts
 
 mainClassName = 'com.ezardlabs.lostsector.Main'
