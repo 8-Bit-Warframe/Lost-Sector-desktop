@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="animations">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="animations" />
+              <option name="relativePathToSchema" value="dethsquare\schemas\animations.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="anim.json" />
+                    <option name="pattern" value="true" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="layers">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="layers" />
+              <option name="relativePathToSchema" value="dethsquare\schemas\layers.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="lost-sector\src\main\resources\config\layers.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

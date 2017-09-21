@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":lost-sector" external.linked.project.path="$MODULE_DIR$/../../../lost-sector" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.github.8-Bit-Warframe" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../../../lost-sector/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/../../../lost-sector/build/classes/test" />
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../lost-sector/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../lost-sector/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../lost-sector">
       <sourceFolder url="file://$MODULE_DIR$/../../../lost-sector/src/main/java" isTestSource="false" />
@@ -11,12 +11,87 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../lost-sector/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../lost-sector/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../lost-sector/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../lost-sector/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="dethsquare" />
-    <orderEntry type="module" module-name="base" />
-    <orderEntry type="module" module-name="desktop" />
-    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="dethsquare" scope="PROVIDED" />
+    <orderEntry type="module" module-name="core" scope="PROVIDED" />
+    <orderEntry type="module" module-name="desktop" scope="PROVIDED" />
+    <orderEntry type="module" module-name="base" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-macos" level="project" />
+    <orderEntry type="module" module-name="dethsquare" scope="RUNTIME" />
+    <orderEntry type="module" module-name="core" scope="RUNTIME" />
+    <orderEntry type="module" module-name="desktop" scope="RUNTIME" />
+    <orderEntry type="module" module-name="base" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-macos" level="project" />
+    <orderEntry type="module" module-name="dethsquare" scope="TEST" />
+    <orderEntry type="module" module-name="core" scope="TEST" />
+    <orderEntry type="module" module-name="desktop" scope="TEST" />
+    <orderEntry type="module" module-name="base" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-glfw:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-openal:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-macos" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-opengl:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-windows" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-linux" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-macos" level="project" />
   </component>
 </module>
