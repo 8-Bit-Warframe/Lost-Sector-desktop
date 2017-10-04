@@ -17,7 +17,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="desktop" scope="PROVIDED" />
     <orderEntry type="module" module-name="base" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json:json:20170516" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
@@ -41,7 +41,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-macos" level="project" />
     <orderEntry type="module" module-name="desktop" scope="RUNTIME" />
     <orderEntry type="module" module-name="base" scope="RUNTIME" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.json:json:20170516" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
@@ -65,7 +65,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.1.2:natives-macos" level="project" />
     <orderEntry type="module" module-name="desktop" scope="TEST" />
     <orderEntry type="module" module-name="base" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.json:json:20170516" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.lwjgl:lwjgl:3.1.2:natives-windows" level="project" />
