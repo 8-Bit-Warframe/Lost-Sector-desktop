@@ -10,7 +10,7 @@ apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'edu.sc.seis.launch4j'
 apply plugin: 'org.mini2Dx.butler'
 
-def version = '0.1.0'
+def version = '0.2.0'
 def buildDir = project.hasProperty('buildDirectory') ? buildDirectory : System.getenv('TRAVIS_BUILD_DIR')
 
 shadowJar {
