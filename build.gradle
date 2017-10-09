@@ -114,9 +114,9 @@ task moveLaunchScripts {
         unixB.withWriter { writer ->
             unixA.eachLine { line ->
                 if (line == '"`dirname \\"$PRG\\"`/.." >/dev/null') {
-                    writer << '"`dirname \"$PRG\"`/" >/dev/null'
+                    writer << '"`dirname \"$PRG\"`/" >/dev/null'.replace('\r', '')
                 } else {
-                    writer << line
+                    writer << line.replace('\r', '')
                 }
                 writer << System.lineSeparator()
             }
