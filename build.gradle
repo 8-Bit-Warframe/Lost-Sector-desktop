@@ -92,11 +92,11 @@ task clearInstallDirectory {
 
 task moveLaunchScripts {
     doLast {
-        File windowsA = file('build/install/Lost Sector/bin/Lost Sector.bat')
-        File windowsB = file('build/install/Lost Sector/LostSector-Windows.bat')
+        File windowsA = file('build/install/LostSector/bin/LostSector.bat')
+        File windowsB = file('build/install/LostSector/LostSector-Windows.bat')
 
-        File unixA = file('build/install/Lost Sector/bin/Lost Sector')
-        File unixB = file('build/install/Lost Sector/LostSector-OSX-Linux')
+        File unixA = file('build/install/LostSector/bin/LostSector')
+        File unixB = file('build/install/LostSector/LostSector-OSX-Linux')
 
         windowsB.createNewFile()
         windowsB.withWriter { writer ->
@@ -122,7 +122,7 @@ task moveLaunchScripts {
             }
         }
 
-        file('build/install/Lost Sector/bin').deleteDir()
+        file('build/install/LostSector/bin').deleteDir()
     }
 }
 installDist.dependsOn clearInstallDirectory
