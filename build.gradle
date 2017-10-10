@@ -113,8 +113,8 @@ task moveLaunchScripts {
         unixB.createNewFile()
         unixB.withWriter { writer ->
             unixA.eachLine { line ->
-                if (line == '"`dirname \\"$PRG\\"`/.." >/dev/null') {
-                    writer << '"`dirname \"$PRG\"`/" >/dev/null'.replace('\r', '')
+                if (line == 'cd "`dirname \\"$PRG\\"`/.." >/dev/null') {
+                    writer << 'cd "`dirname \\"$PRG\\"`/" >/dev/null'.replace('\r', '')
                 } else {
                     writer << line.replace('\r', '')
                 }
