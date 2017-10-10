@@ -79,14 +79,14 @@ butler {
     userVersion = version
 
     anyOs {
-        binDirectory = file('build/install/Lost Sector').getAbsolutePath()
+        binDirectory = file('build/install/LostSector').getAbsolutePath()
         channel = 'win-osx-linux-alpha'
     }
 }
 
 task clearInstallDirectory {
     doFirst {
-        file('build/install/Lost Sector').deleteDir()
+        file('build/install/LostSector').deleteDir()
     }
 }
 
