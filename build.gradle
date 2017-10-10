@@ -80,7 +80,7 @@ butler {
 
     anyOs {
         binDirectory = file('build/install/LostSector').getAbsolutePath()
-        channel = 'win-osx-linux-alpha'
+        channel = 'win-osx-linux-alpha-' + version
     }
 }
 
