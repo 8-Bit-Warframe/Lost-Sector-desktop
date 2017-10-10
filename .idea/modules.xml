@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LostSector.iml" filepath="$PROJECT_DIR$/.idea/modules/LostSector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LostSector.iml" filepath="$PROJECT_DIR$/LostSector.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/base/base.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/dethsquare/core/core.iml" />
